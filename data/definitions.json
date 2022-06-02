@@ -1,33 +1,33 @@
 {
   "use_case": {
-    "name": "Purpose",
+    "name": "Use Case",
     "title": "Purpose/Use Case of CBDC",
     "categories": [
       {
         "name": "Retail",
-        "definition": "The CBDC is available to the general public for all transactions"
+        "definition": "The CBDC is available to the general public for all transactions relating to the purchase of goods and services."
       },
       {
         "name": "Wholesale",
-        "definition": "The CBDC is used by financial institutions for bank-to-bank transactions and settlements"
+        "definition": "The CBDC is used by financial institutions for bank-to-bank transactions and settlements."
       }
     ]
   },
   "architecture": {
     "name": "Architecture",
-    "title": "The legal structure of claims",
+    "title": "How a CBDC is delivered",
     "categories": [
       {
         "name": "Direct CBDC",
         "definition": "The CBDC is a direct claim on the central bank, which handles consumers’ retail payments and records all transactions, unlike cash."
       },
       {
-        "name": "Hybrid CBDC",
-        "definition": "This is an intermediate solution where the CBDC is a direct claim on the central bank but payments and real-time transactions are facilitated by financial intermediaries including commercial banks."
+        "name": "Intermediated CBDC",
+        "definition": "This is a solution where the CBDC is a direct claim on the central bank but payments and real-time transactions are facilitated by financial intermediaries including commercial banks."
       },
       {
         "name": "Synthetic CBDC",
-        "definition": "The CBDC is not a direct claim on the central bank; Claims are a liability of private financial institutions that facilitate payments and real-time transactions."
+        "definition": "The CBDC is not a direct claim on the central bank, claims are a liability of private financial institutions that facilitate payments and real-time transactions."
       }
     ]
   },
@@ -41,14 +41,14 @@
   },
   "technology_partnerships": {
     "name": "Technology Partnership",
-    "title": "Technology solution provider"
+    "title": "Technology solution provider. Many central banks contract with external vendors/companies to design their CBDC."
   },
   "infrastructure": {
-    "name": "Infrastructure",
-    "title": "The infrastructure could be based on a conventional centrally controlled database or on  distributed ledger technology (DLT). Conventional and DLT-based infrastructures often store data multiple times and in physically separate locations. The main difference between them lies in how the transactions are verified and secured."
+    "name": "Underlying Technology",
+    "title": "The infrastructure could be based on a conventional centrally controlled database or on distributed ledger technology (DLT). Conventional and DLT-based infrastructures often store data multiple times and in physically separate locations. The main difference between them lies in how the transactions are verified and secured."
   },
   "status": {
-    "name": "CBDC Status",
+    "name": "Status",
     "categories": [
       {
         "name": "Research",
